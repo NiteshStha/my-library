@@ -6,10 +6,10 @@ This React Component helps in minimizing any texts in an element by minimizing t
 -> Attributes:
 
 1. as: Takes the HTML element as value to wrap the text.
-   Eg: <TextMinimize as='span'>
+   Eg: as='span'
 
 2. characters: Takes the total characters to be displayed in the text. It limits the text to the provided number.
-   Eg: <TextMinimize characters={60}>
+   Eg: characters={60}
 
 3. text: Takes the text that is to be displayed.
-   Eg: <TextMinimize text={text}>
+   Eg: text={text}
