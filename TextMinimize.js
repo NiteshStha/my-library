@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 
 function TextMinimize(props) {
   const initialText = props.text;
-  const characters = props.characters;
-  const Tag = props.as;
+  const characters = props.characters || 30;
+  const Tag = props.as || 'span';
   const text =
     initialText.length > characters
       ? initialText.slice(0, characters) + '...'
