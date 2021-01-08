@@ -1,3 +1,4 @@
+// prettier-ignore
 const colors = {
   colorful_and_balanced: ['#e12d60', '#85dcb0', '#e8a87c', '#c38d9e', '#41b3a3'],
   vibrant_and_elegant: ['#f8e9a1', '#f76c6c', '#a8d0e6', '#374785', '#24305e'],
